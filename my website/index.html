@@ -1,79 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nakul Kumbria – Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nakul Kumbria | Software Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="Profile Picture 2.jpg" alt="Nakul Kumbria" class="profile-photo">
-    <h1>Nakul Kumbria</h1>
-    <p class="tagline">Transforming Ideas into Tech Solutions | AI-Focused Software Engineer</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#resume">Resume</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="#top">NK</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
   </header>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m Nakul Kumbria, an IT Project Manager I at Thermo Fisher Scientific, and I’m starting my Master’s in Computer Science at USC with a specialization in Artificial Intelligence. I’m passionate about using technology to solve complex problems, and I enjoy bridging the gap between innovative ideas and real-world impact. My mission is to apply my skills in IT and AI to drive projects that create meaningful solutions.</p>
-  </section>
 
-  <section id="resume">
-    <h2>Resume</h2>
-    <ul>
-      <li><a href = "NK Resume.pdf" download="nk.resume.pdf"><b>Download Resume (PDF) </b></a></li>
-      <li>
-        <u><strong>Education:</strong></u><br> 
-        <b>University of Southern California</b>
-          <br> Masters in Computer Science <br> 
-        <b>University of Texas of the Permian Basin</b>
-          <br> Bachelor's in Computer Science and Minor in Mathematics
-      </li>
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">AI-Focused Software Engineer · Systems Analyst · USC MSCS</p>
+        <h1>Nakul Kumbria</h1>
+        <p class="hero-text">
+          I build cloud-hosted full-stack applications, AI chatbots, automation workflows, and BI solutions that turn business data into usable products.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="NK Resume.pdf" download="Nakul-Kumbria-Resume.pdf">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="Profile Picture 2.jpg" alt="Nakul Kumbria" class="profile-photo" />
+        <div>
+          <h2>Software + AI + Data</h2>
+          <p>Google Cloud Run, Flask, Node/Express, REST APIs, Power BI, Python, Databricks, LangChain, Streamlit, SQL.</p>
+        </div>
+      </div>
+    </section>
 
-      <li> 
-        <u><strong>Work Experience:</strong></u> <br> 
-        IT Project Manager I at Thermo Fisher Scientific<br> 
-        Systems Analyst I at Thermo Fisher Scientific<br>
-        Web Developer Intern at Expperis IT (Expedia Group)<br>
-        Web Developer Intern at SUNLOC<br>
-        Web Developer Intern at Global Tennis Academy
-      </li>
+    <section id="about" class="section-shell two-column">
+      <div>
+        <p class="section-label">About</p>
+        <h2>Building practical products across web, AI, cloud, and enterprise data.</h2>
+      </div>
+      <p>
+        I am a Computer Science master’s student at USC and a technology professional at Thermo Fisher Scientific. My work combines full-stack development, cloud deployment, AI chatbot development, BI dashboards, automation, and enterprise systems support. I enjoy creating clean user experiences backed by reliable APIs and production-style deployment workflows.
+      </p>
+    </section>
 
-      <li>
-        <u><strong>Skills:</strong></u> 
-        <br>C++, Java, HTML, CSS, JavaScript/JQuery, React and Node Framework, Bootstrap Framework, Springboot Framework, Laravel Framework, 
-            Databricks, Redshift, AWS S3 and EC2, AWS Cloud 9 with Code Whisperer, AWS SageMaker, Dbeaver, Python, PySpark, React and Node, PHP, C#, C, MySQL, GraphQL, MongoDB, 
-            Salesforce, UI Path, Power Automate, and Microsoft Power BI
-      </li>
-      
-    </ul>
-  </section>
+    <section id="experience" class="section-shell">
+      <div class="section-heading">
+        <p class="section-label">Experience</p>
+        <h2>Professional experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-card">
+          <span>Nov 2024 – Present</span>
+          <h3>IT Project Manager I · Thermo Fisher Scientific</h3>
+          <p>Developing AI-powered chatbots, RAG workflows, automation, dashboard apps, and cloud/data solutions for business teams and leadership.</p>
+        </article>
+        <article class="timeline-card">
+          <span>Jun 2022 – Nov 2024</span>
+          <h3>Systems Analyst I · Thermo Fisher Scientific</h3>
+          <p>Administered Planview EPPM, supported enterprise users, created Power BI/Tableau dashboards, automated manual workflows, and worked with SQL, SharePoint, S3, Databricks, Redshift, and Salesforce data.</p>
+        </article>
+        <article class="timeline-card">
+          <span>2020 – 2021</span>
+          <h3>Web Developer Internships</h3>
+          <p>Built and maintained web applications, databases, MySQL environments, and internal websites for Experis IT, SUNLOC, and Global Tennis Academy.</p>
+        </article>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div id="github-projects">
-      <h3>GitHub: nakicool007</h3>
-      <ul>
-        <li><a href="https://github.com/nakicool007/Langchain">Langchain</a> – This repository contains a simple, interactive application that allows you to chat with your own PDF documents. Built using the LangChain framework, this project demonstrates how to ingest, process, and query document data to create a question-answering bot.</li>
-        <li><a href="https://github.com/nakicool007/Pandas">Pandas</a> – This repository contains basic Python scripts demonstrating different approaches to storing and managing data. Each script showcases a distinct method, making it a great learning resource for Python data structures and simple automation.</li>
-        <li><a href="https://github.com/nakicool007/API-Automation">API Automation</a> – This repository contains automation scripts that integrate with various APIs to streamline workflows, reduce manual effort, and improve efficiency.Each script is self-contained and demonstrates practical use cases like pulling data, generating reports, and managing resources.</li>
-        <li><a href="https://github.com/nakicool007/GTA">GTA</a> – Welcome to the Global Tennis Academy website! This project aims to provide information, training resources, and updates for tennis enthusiasts.</li>
-      </ul>
-    </div>
-  </section>
+    <section id="projects" class="section-shell">
+      <div class="section-heading">
+        <p class="section-label">Projects</p>
+        <h2>Google Cloud + GitHub projects</h2>
+        <p>Styled like a modern project explorer: searchable-looking cards, clear tech stacks, live links, and GitHub links.</p>
+      </div>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Connect on <a href="linkedin.com/in/nakul-kumbria-a5b343212">LinkedIn</a> or email me at: <a href="mailto:nakul.kumbria.uni@outlook.com">nakul.kumbria.uni@outlook.com</a></p>
-  </section>
+      <h3 class="subheading">Google Cloud Run projects</h3>
+      <div class="project-grid featured-grid">
+        <article class="project-card featured">
+          <div class="project-topline"><span class="badge">Cloud Run</span><span>Flask · REST APIs · Docker</span></div>
+          <h3>Movie Explorer with Reviews</h3>
+          <p>Full-stack movie discovery platform that aggregates movie metadata, trailers, ratings, reviews, and detailed movie views through backend API orchestration.</p>
+          <div class="tag-list"><span>Flask</span><span>TMDB API</span><span>YouTube API</span><span>Docker</span><span>NGINX</span></div>
+          <div class="card-actions">
+            <a href="https://movie-explorer-995001412724.us-central1.run.app" target="_blank" rel="noopener">Live App</a>
+            <a href="https://github.com/nakicool007" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-topline"><span class="badge">Cloud Run</span><span>Node · Express · APIs</span></div>
+          <h3>Art Collection Explorer</h3>
+          <p>Artwork discovery app integrating Harvard Art Museums and The Met APIs with filters, favorites, pagination, detailed artwork views, and empty-state handling.</p>
+          <div class="tag-list"><span>JavaScript</span><span>Node/Express</span><span>Harvard API</span><span>Met API</span><span>Cloud Run</span></div>
+          <div class="card-actions">
+            <a href="https://art-explorer-343742247155.us-central1.run.app" target="_blank" rel="noopener">Live App</a>
+            <a href="https://github.com/nakicool007" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-topline"><span class="badge">Cloud Run</span><span>SPA · API · NGINX</span></div>
+          <h3>Recipe Finder</h3>
+          <p>Responsive recipe search application using TheMealDB API with recipe cards, detail pages, video actions, and Cloud Run static hosting workflow.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>TheMealDB</span><span>NGINX</span></div>
+          <div class="card-actions">
+            <a class="disabled-link" href="#" aria-disabled="true">Add Cloud Run Link</a>
+            <a href="https://github.com/nakicool007" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="subheading">GitHub repositories</h3>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-topline"><span class="badge">AI</span><span>LangChain</span></div>
+          <h3>PDF Chatbot</h3>
+          <p>Interactive document question-answering app that ingests and queries PDF files using LangChain-style retrieval workflows.</p>
+          <div class="card-actions"><a href="https://github.com/nakicool007/Langchain" target="_blank" rel="noopener">View Repository</a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-topline"><span class="badge">Python</span><span>Pandas</span></div>
+          <h3>Pandas Practice</h3>
+          <p>Python scripts demonstrating data storage, transformation, and data structure fundamentals for analytics and automation practice.</p>
+          <div class="card-actions"><a href="https://github.com/nakicool007/Pandas" target="_blank" rel="noopener">View Repository</a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-topline"><span class="badge">Automation</span><span>APIs</span></div>
+          <h3>API Automation</h3>
+          <p>Automation scripts that integrate APIs to pull data, generate reports, streamline workflows, and reduce manual processing.</p>
+          <div class="card-actions"><a href="https://github.com/nakicool007/API-Automation" target="_blank" rel="noopener">View Repository</a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-topline"><span class="badge">Web</span><span>HTML/CSS</span></div>
+          <h3>Global Tennis Academy</h3>
+          <p>Website project for tennis academy information, training resources, updates, and general web development practice.</p>
+          <div class="card-actions"><a href="https://github.com/nakicool007/GTA" target="_blank" rel="noopener">View Repository</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell">
+      <div class="section-heading">
+        <p class="section-label">Skills</p>
+        <h2>Tech stack</h2>
+      </div>
+      <div class="skills-wrap">
+        <span>Python</span><span>Java</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Flask</span><span>Node.js</span><span>React</span><span>SQL</span><span>Power BI</span><span>Tableau</span><span>Databricks</span><span>AWS S3</span><span>AWS EC2</span><span>Redshift</span><span>Google Cloud Run</span><span>Docker</span><span>NGINX</span><span>LangChain</span><span>Streamlit</span><span>Power Automate</span><span>UiPath</span><span>Selenium</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell contact-card">
+      <div>
+        <p class="section-label">Contact</p>
+        <h2>Let’s build something useful.</h2>
+        <p>Open to software engineering, AI, data, and cloud-focused opportunities.</p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn primary" href="mailto:nakul.kumbria.uni@outlook.com">Email Me</a>
+        <a class="btn secondary" href="https://linkedin.com/in/nakul-kumbria-a5b343212" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn secondary" href="https://github.com/nakicool007" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>Made with ♥ hosted on GitHub Pages</p>
+    <p>Made with ❤️ · Hosted on GitHub Pages</p>
   </footer>
 </body>
 </html>
