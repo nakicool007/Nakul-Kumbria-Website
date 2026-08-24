@@ -163,12 +163,11 @@ h3 { font-size: 1.2rem; margin-bottom: 10px; }
   background: linear-gradient(145deg, #bfdbfe 0%, #dbeafe 45%, #eff6ff 100%);
   border-radius: 34px;
   box-shadow: var(--shadow);
+  overflow: hidden;
 }
 .accomplishments-photo {
   width: 100%;
-  aspect-ratio: 4 / 4.65;
-  object-fit: cover;
-  object-position: center top;
+  height: auto;
   display: block;
   border-radius: 24px;
   filter: saturate(0.94) contrast(1.03);
@@ -212,7 +211,7 @@ footer { text-align: center; padding: 34px 18px; color: #64748b; }
   .timeline, .featured-grid { grid-template-columns: 1fr; }
   .project-grid { grid-template-columns: repeat(2, 1fr); }
   .hero { min-height: auto; padding-top: 52px; }
-  .accomplishments-photo-wrap { max-width: 440px; }
+  .accomplishments-photo-wrap { max-width: 440px; margin: 0 auto; }
 }
 
 @media (max-width: 640px) {
